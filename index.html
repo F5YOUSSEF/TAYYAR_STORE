@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TAYYAR STORE</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #121212;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-height: 100px;
+    }
+    .note {
+      background-color: #272727;
+      padding: 15px;
+      text-align: center;
+      font-size: 18px;
+      color: #00ffcc;
+    }
+    h2 {
+      color: #00ffff;
+      text-align: center;
+      margin-top: 40px;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: #1a1a1a;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    }
+    .card h3 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    .card p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    .button-group {
+      margin-top: 15px;
+    }
+    .button-group a {
+      display: inline-block;
+      margin: 5px 5px 0 0;
+      padding: 10px 15px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+      transition: background-color 0.3s, transform 0.3s;
+    }
+    .button-group a:hover {
+      transform: scale(1.05);
+    }
+    .whatsapp {
+      background-color: #25D366;
+    }
+    .telegram {
+      background-color: #5865F2;
+    }
+    footer {
+      background-color: #1f1f1f;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="TAYYAR_LOGO.png" alt="TAYYAR STORE Logo" />
+  </header>
+
+  <div class="note">
+    نعتذر إن الموقع بسيط حاليًا، لكن بدعمكم هنكمل ونطوّر نفسنا ❤️
+  </div>
+
+  <h2>خدمات الشحن والعروض</h2>
+  <div class="card-container">
+    <div class="card"><h3>30 UC بـ 33 ج</h3>
+      <div class="button-group">
+        <a href="https://wa.me/+201156608506" class="whatsapp">اطلب الآن عبر واتساب</a>
+        <a href="https://t.me/F5_YOUSSEF" class="telegram">اطلب الآن عبر تيليجرام</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    TAYYAR STORE &copy; 2025 - للتواصل: 01156608506 أو تيليجرام @F5_YOUSSEF
+  </footer>
+</body>
+</html>
